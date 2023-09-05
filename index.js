@@ -40,6 +40,7 @@ const Peliculas = {
     }
   };
   
+
   // Llamando a los métodos del objeto Peliculas
   Peliculas.reproducir();
   Peliculas.obtenerInformacion();
