@@ -23,6 +23,8 @@ router.get('/del/:id', async(req,res)=>{
     res.redirect('/');
 })
 
+
+
 //get obtiene y post manda datos
 module.exports = router;
 //tarea: que al eliminar abra una ventana modal para que se confirme la eiminacion 
