@@ -31,7 +31,7 @@
                         </div>
 
                         <!-- Botones para registrar y actualizar -->
-                        <button class="btn btn-sucess" name="registrar">Registrar</button>
+                        <button class="btn btn-primary" name="registrar">Registrar</button>
                         <button class="btn btn-primary" name="actualizar">Actualizar</button>
                     </form>
                 </div>
@@ -60,7 +60,7 @@
                         <td><%= datos[i].iva  %></td>
                         <td>
                             <!-- Botones para eliminar y actualizar con modales -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eliminarModal<%= datos[i]._id %>">
+                            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#eliminarModal<%= datos[i]._id %>">
                                 Eliminar
                             </button>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#actualizarModal<%= datos[i]._id %>">
@@ -119,7 +119,7 @@
                         <label for="Telefono" class="form-label">IVA</label>
                         <input type="text" name="iva" id="iva" placeholder="IVA" class="form-control" value="<%= datos[i].iva %>">
                     </div>
-                    <button class="btn btn-warning">Actualizar</button>
+                    <button class="btn btn-primary">Actualizar</button>
                 </form>
             </div>
         </div>
